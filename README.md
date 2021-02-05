@@ -1,4 +1,4 @@
-# unity performance tests
+# Unity performance tests
 Do you have doubts about what is more optimal? Or which function consumes the most memory?
 Is it better to use for, foreach or linq? What about Lists vs Arrays?
 We have all heard claims that one thing is better than another, but how many times have we checked for ourselves?
@@ -13,6 +13,6 @@ The last step is to run the tests from the Main.cs script (just follow the examp
 
 You can fork this project, or you can create a pull request with your tests and share it.
 
-# Nice feateres to have
+# Nice features to have
 - Add categories for the PerformanceTest and auto-configure a PerformanceTestsRunner for each category with these tests.
 - Avoid the need to modify Main.cs script to add more runners. A solution using reflection would be interesting (or any solution that does not require modifying this script to add tests)
